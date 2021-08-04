@@ -1,0 +1,1 @@
+## Example using drag and drop with `HTML` and `javascript`

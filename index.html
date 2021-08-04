@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Drag And Drop</title>
+</head>
+
+<body>
+
+  <div id='id-1' class="container-content" ondrop="handleDrop(event)" ondragover="handleDragOver(event)">
+    <div id='id-2' class="container">
+      <div id='id-3' class="container-card" ondrop="handleDrop(event)" ondragover="handleDragOver(event)"
+        draggable="true" ondragstart="handleDragStart(event)">
+        <div id='id-4' class="card" draggable="true" ondragstart="handleDragStart(event)">
+          Hello
+        </div>
+      </div>
+      <div id='id-5' class="container-card" ondrop="handleDrop(event)" ondragover="handleDragOver(event)"
+        draggable="true" ondragstart="handleDragStart(event)"></div>
+      <div id='id-6' class="container-card" ondrop="handleDrop(event)" ondragover="handleDragOver(event)"
+        draggable="true" ondragstart="handleDragStart(event)"></div>
+    </div>
+
+  </div>
+
+  <div id='id-7' class="container-content" ondrop="handleDrop(event)" ondragover="handleDragOver(event)"></div>
+  <div id='id-8' class="container-content" ondrop="handleDrop(event)" ondragover="handleDragOver(event)"></div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

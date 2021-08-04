@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container-content {
+  margin: 10px;
+  min-width: 450px;
+  min-height: 250px;
+  background: whitesmoke;
+  border: 1px solid #CECECE;
+}
+
+.container-card {
+  width: 200px;
+  height: 200px;
+  background: salmon;
+  border: 1px solid #CECECE;
+  margin: 10px
+}
+
+
+.card {
+  width: 100px;
+  height: 100px;
+  background: ivory;
+  border: 1px solid #CECECE;
+}
